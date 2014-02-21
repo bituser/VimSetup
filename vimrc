@@ -28,13 +28,23 @@ Bundle 'gmarik/vundle'
 filetype plugin indent on
 
 "Bundles
+Bundle 'kien/ctrlp.vim'
+Bundle 'scrooloose/syntastic'
+Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'chilicuil/conque'
+Bundle 'tpope/vim-fugitive'
+Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'tpope/vim-surround'
+Bundle 'tomasr/molokai'
+"Ctrlp mapping
+let g:ctrlp_map = '<c-p>'
 
 "Terminal colour pallete
 set t_Co=256
 
 "Molokai Setup
 set background=dark
-
+colorscheme molokai
 "Set a textwrapping width
 set tw=80
 
